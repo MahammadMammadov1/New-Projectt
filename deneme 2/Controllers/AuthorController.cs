@@ -26,6 +26,7 @@ namespace deneme_2.Controllers
             return Ok(authors);
         }
 
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAuthor(int id)
         {

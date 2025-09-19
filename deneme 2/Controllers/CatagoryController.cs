@@ -1,9 +1,7 @@
-﻿using deneme_2.Database;
-using deneme_2.DTOs.CatagoryDtos;
-using deneme_2.Models;
-using Microsoft.AspNetCore.Http;
+﻿using deneme_2.DTOs.CatagoryDtos;
+using deneme_2.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System;
 using System.Threading.Tasks;
 
 namespace deneme_2.Controllers
@@ -12,93 +10,88 @@ namespace deneme_2.Controllers
     [ApiController]
     public class CatagoryController : ControllerBase
     {
-        private readonly AppDbContext _appDb;
+        private readonly ICatagoryIServices _catagoryIServices;
 
-        public CatagoryController(AppDbContext appDb)
+        public CatagoryController(ICatagoryIServices catagoryIServices)
         {
-            this._appDb = appDb;
+            _catagoryIServices = catagoryIServices;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetCatagories()
         {
-            List<Catagory> catagories =await _appDb.Catagories.ToListAsync();
-            return Ok(catagories);
+            var data = await _catagoryIServices.GetAllAsync();
+            return Ok(data);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCatagory(int id)
         {
-            var catagory =await _appDb.Catagories.FindAsync(id);
-
-            if (catagory is null) return NotFound();
-
-            CatagoryGetDto catagoryGetDto = new CatagoryGetDto()
+            try
             {
-                Id = catagory.Id,
-                Name = catagory.Name,
-                Description = catagory.Description,
-                CreatedDate = catagory.CreatedAt,
-                UpdatedDate = catagory.UpdatedAt,
-
-            };
-            
-            return Ok(catagory);
+                var data = await _catagoryIServices.GetAsync(id);
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateCatagory(CatagoryCreateDto dto)
         {
-            Catagory catagory = new Catagory
+            try
             {
-                Name = dto.Name,
-                Description = dto.Description,
-
-                
-
-            };
-
-            catagory.CreatedAt = DateTime.UtcNow.AddHours(4);
-            catagory.UpdatedAt = DateTime.UtcNow.AddHours(4);
-
-
-            await _appDb.Catagories.AddAsync(catagory);
-            await _appDb.SaveChangesAsync();
-            return Ok();
+                await _catagoryIServices.CreateAsync(dto);
+                return Ok(new { message = "Category created successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
-        [HttpPut("{id}")]   
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCatagory(int id, CatagoryUpdateDto dto)
         {
-            var catagory =await _appDb.Catagories.FindAsync(id);
-            if (catagory is null) return NotFound();
-
-            catagory.Name = dto.Name;
-            catagory.Description = dto.Description;
-            catagory.UpdatedAt = DateTime.UtcNow.AddHours(4);
-
-            await _appDb.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                await _catagoryIServices.UpdateAsync(id, dto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCatagory(int id)
         {
-            var catagory =await _appDb.Catagories.FindAsync(id);
-            if (catagory is null) return NotFound();
-            _appDb.Catagories.Remove(catagory);
-            await _appDb.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                await _catagoryIServices.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpPatch("{id}/softdelete")]
         public async Task<IActionResult> SoftDeleteCatagory(int id)
         {
-            var catagory =await _appDb.Catagories.FindAsync(id);
-            if (catagory is null) return NotFound();
-            catagory.IsDeleted = true;
-            await _appDb.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                await _catagoryIServices.SoftDelete(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
-
     }
 }
