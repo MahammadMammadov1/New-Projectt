@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "deneme_2.Controllers.AuthorController",
-    "Method": "GetAuthors",
+    "Method": "GetAllAuthors",
     "RelativePath": "api/Author",
     "HttpMethod": "GET",
     "IsController": true,

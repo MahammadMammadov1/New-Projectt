@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IBookServices, BookServices>();
 builder.Services.AddScoped<ICatagoryIServices, CatagoryServices>();
+builder.Services.AddScoped<IAuthorServices, AuthorServices>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
