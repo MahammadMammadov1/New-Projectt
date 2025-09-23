@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using deneme_2.Coonfigurations;
+using deneme_2.Validations.BookValidators;
+using Microsoft.EntityFrameworkCore;
 
 namespace deneme_2.Database
 {
@@ -14,8 +16,11 @@ namespace deneme_2.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(BookConfiguration).Assembly);
+
             base.OnModelCreating(modelBuilder);
-            
+
+
         }
     }
 }

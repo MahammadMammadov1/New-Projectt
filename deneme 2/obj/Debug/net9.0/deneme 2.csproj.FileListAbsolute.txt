@@ -165,3 +165,7 @@ C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\obj\Debug\net9.0\deneme 2.pdb
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\obj\Debug\net9.0\deneme 2.genruntimeconfig.cache
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\obj\Debug\net9.0\ref\deneme 2.dll
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\obj\Debug\net9.0\deneme 2.sourcelink.json
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Validation.dll
