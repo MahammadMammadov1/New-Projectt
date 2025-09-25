@@ -1,7 +1,6 @@
 ﻿using deneme_2.DTOs.CatagoryDtos;
 using deneme_2.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Threading.Tasks;
 
 namespace deneme_2.Controllers
@@ -27,71 +26,36 @@ namespace deneme_2.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCatagory(int id)
         {
-            try
-            {
-                var data = await _catagoryIServices.GetAsync(id);
-                return Ok(data);
-            }
-            catch (Exception ex)
-            {
-                return NotFound(new { message = ex.Message });
-            }
+            var data = await _catagoryIServices.GetAsync(id);
+            return Ok(data);
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateCatagory(CatagoryCreateDto dto)
         {
-            try
-            {
-                await _catagoryIServices.CreateAsync(dto);
-                return Ok(new { message = "Category created successfully" });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
+            await _catagoryIServices.CreateAsync(dto);
+            return Created("", new { message = "Category created successfully" });
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCatagory(int id, CatagoryUpdateDto dto)
         {
-            try
-            {
-                await _catagoryIServices.UpdateAsync(id, dto);
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
+            await _catagoryIServices.UpdateAsync(id, dto);
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCatagory(int id)
         {
-            try
-            {
-                await _catagoryIServices.DeleteAsync(id);
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
+            await _catagoryIServices.DeleteAsync(id);
+            return NoContent();
         }
 
         [HttpPatch("{id}/softdelete")]
         public async Task<IActionResult> SoftDeleteCatagory(int id)
         {
-            try
-            {
-                await _catagoryIServices.SoftDelete(id);
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
+            await _catagoryIServices.SoftDelete(id);
+            return NoContent();
         }
     }
 }

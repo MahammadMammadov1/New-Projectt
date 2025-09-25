@@ -18,7 +18,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "author",
+        "Name": "dto",
         "Type": "deneme_2.DTOs.AuthorDtos.AuthorCreateDto",
         "IsRequired": true
       }
@@ -161,7 +161,7 @@
         "IsRequired": true
       },
       {
-        "Name": "updateDto",
+        "Name": "dto",
         "Type": "deneme_2.DTOs.BookDtos.BookUpdateDto",
         "IsRequired": true
       }

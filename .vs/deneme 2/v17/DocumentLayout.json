@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\catagorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\catagorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\catagoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\catagoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\validations\\authordtosvalidators\\authorupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\validations\\authordtosvalidators\\authorupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\dtos\\bookdtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\dtos\\bookdtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,28 +95,8 @@
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\validations\\bookdtosvalidators\\bookupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\validations\\bookdtosvalidators\\bookcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\validations\\bookdtosvalidators\\bookcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\catagorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\catagorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\interfaces\\iauthorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\implementations\\catagoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|solutionrelative:deneme 2\\services\\implementations\\catagoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1560BC50-97ED-4C26-9325-083B8C305A3B}|deneme 2\\deneme 2.csproj|c:\\users\\mehemmed\\source\\repos\\deneme 2\\deneme 2\\services\\interfaces\\icatagoryiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,20 +142,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "deneme 2\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:05:30.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Exceptions\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ForbiddenException.cs",
+              "RelativeToolTip": "deneme 2\\Exceptions\\ForbiddenException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:02:40.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookServices.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\BookServices.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\BookServices.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\BookServices.cs",
+              "RelativeToolTip": "deneme 2\\Services\\Implementations\\BookServices.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:15:53.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatagoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\CatagoryServices.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\CatagoryServices.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\CatagoryServices.cs",
+              "RelativeToolTip": "deneme 2\\Services\\Implementations\\CatagoryServices.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:17:15.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatagoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\CatagoryController.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Controllers\\CatagoryController.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\CatagoryController.cs",
+              "RelativeToolTip": "deneme 2\\Controllers\\CatagoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:13:20.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorServices.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\AuthorServices.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\AuthorServices.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\AuthorServices.cs",
+              "RelativeToolTip": "deneme 2\\Services\\Implementations\\AuthorServices.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:12:40.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "deneme 2\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:11:34.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Program.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Program.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Program.cs",
+              "RelativeToolTip": "deneme 2\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:11:15.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\BookController.cs",
+              "RelativeToolTip": "deneme 2\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:11:42.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Exceptions\\UnauthorizedException.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\UnauthorizedException.cs",
+              "RelativeToolTip": "deneme 2\\Exceptions\\UnauthorizedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:01:50.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Exceptions\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "deneme 2\\Exceptions\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:01:13.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Exceptions\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "deneme 2\\Exceptions\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:59:10.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "deneme 2\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "deneme 2\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:51:26.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AuthorUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\AuthorDtosValidators\\AuthorUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\AuthorDtosValidators\\AuthorUpdateDtoValidator.cs",
               "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\AuthorDtosValidators\\AuthorUpdateDtoValidator.cs",
               "RelativeToolTip": "deneme 2\\Validations\\AuthorDtosValidators\\AuthorUpdateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T12:44:48.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "AuthorCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\AuthorDtosValidators\\AuthorCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\AuthorDtosValidators\\AuthorCreateDtoValidator.cs",
@@ -143,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "CatagoryUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\CatagoryDtosValidators\\CatagoryUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\CatagoryDtosValidators\\CatagoryUpdateDtoValidator.cs",
@@ -155,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "CatagoryCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\CatagoryDtosValidators\\CatagoryCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\CatagoryDtosValidators\\CatagoryCreateDtoValidator.cs",
@@ -167,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "AuthorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Configurations\\AuthorConfiguration.cs",
               "RelativeDocumentMoniker": "deneme 2\\Configurations\\AuthorConfiguration.cs",
@@ -179,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "CatagoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Configurations\\CatagoryConfiguration.cs",
               "RelativeDocumentMoniker": "deneme 2\\Configurations\\CatagoryConfiguration.cs",
@@ -191,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "BookCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\BookDtosValidators\\BookCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\BookDtosValidators\\BookCreateDtoValidator.cs",
@@ -203,19 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Program.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Program.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Program.cs",
-              "RelativeToolTip": "deneme 2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:11:15.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "BookUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\DTOs\\BookDtos\\BookUpdateDto.cs",
               "RelativeDocumentMoniker": "deneme 2\\DTOs\\BookDtos\\BookUpdateDto.cs",
@@ -227,19 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookServices.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\BookServices.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\BookServices.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\BookServices.cs",
-              "RelativeToolTip": "deneme 2\\Services\\Implementations\\BookServices.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAQwLQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:15:53.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "deneme 2\\Database\\AppDbContext.cs",
@@ -251,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "BookConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Configurations\\BookConfiguration.cs",
               "RelativeDocumentMoniker": "deneme 2\\Configurations\\BookConfiguration.cs",
@@ -263,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "BookUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Validations\\BookDtosValidators\\BookUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "deneme 2\\Validations\\BookDtosValidators\\BookUpdateDtoValidator.cs",
@@ -275,31 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "deneme 2\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:11:34.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthorServices.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\AuthorServices.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\AuthorServices.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\AuthorServices.cs",
-              "RelativeToolTip": "deneme 2\\Services\\Implementations\\AuthorServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T12:12:40.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Models\\Author.cs",
               "RelativeDocumentMoniker": "deneme 2\\Models\\Author.cs",
@@ -311,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "IAuthorServices.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Interfaces\\IAuthorServices.cs",
               "RelativeDocumentMoniker": "deneme 2\\Services\\Interfaces\\IAuthorServices.cs",
@@ -323,19 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CatagoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\CatagoryController.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Controllers\\CatagoryController.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\CatagoryController.cs",
-              "RelativeToolTip": "deneme 2\\Controllers\\CatagoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:13:20.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "AuthorGetDto.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\DTOs\\AuthorDtos\\AuthorGetDto.cs",
               "RelativeDocumentMoniker": "deneme 2\\DTOs\\AuthorDtos\\AuthorGetDto.cs",
@@ -347,31 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Controllers\\BookController.cs",
-              "RelativeToolTip": "deneme 2\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABBwHoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:11:42.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CatagoryServices.cs",
-              "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\CatagoryServices.cs",
-              "RelativeDocumentMoniker": "deneme 2\\Services\\Implementations\\CatagoryServices.cs",
-              "ToolTip": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Implementations\\CatagoryServices.cs",
-              "RelativeToolTip": "deneme 2\\Services\\Implementations\\CatagoryServices.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAABBwF8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:17:15.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "ICatagoryIServices.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Interfaces\\ICatagoryIServices.cs",
               "RelativeDocumentMoniker": "deneme 2\\Services\\Interfaces\\ICatagoryIServices.cs",
@@ -383,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "IBookServices.cs",
               "DocumentMoniker": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\Services\\Interfaces\\IBookServices.cs",
               "RelativeDocumentMoniker": "deneme 2\\Services\\Interfaces\\IBookServices.cs",
