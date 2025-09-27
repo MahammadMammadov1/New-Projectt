@@ -1,10 +1,12 @@
 ﻿using deneme_2.Coonfigurations;
+using deneme_2.Models;
 using deneme_2.Validations.BookValidators;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace deneme_2.Database
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {

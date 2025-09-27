@@ -35,6 +35,7 @@ namespace deneme_2.Middleware
                 ConflictException => StatusCodes.Status409Conflict,
                 UnauthorizedException => StatusCodes.Status401Unauthorized,
                 ForbiddenException => StatusCodes.Status403Forbidden,
+                CredentialException => StatusCodes.Status403Forbidden,
                 _ => StatusCodes.Status500InternalServerError
             };
 

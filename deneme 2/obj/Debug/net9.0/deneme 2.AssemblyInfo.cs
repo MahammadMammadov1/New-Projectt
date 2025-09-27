@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("deneme 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d02f29fd9fd7b1755cb20cfe0bcbc875fb516eb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff7024448446c5bbfe00ba9133cc37895b8a5bcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("deneme 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("deneme 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -169,3 +169,8 @@ C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidati
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Validation.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Mehemmed\source\repos\deneme 2\deneme 2\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
