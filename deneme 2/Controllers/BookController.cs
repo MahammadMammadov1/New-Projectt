@@ -1,5 +1,6 @@
 ﻿using deneme_2.DTOs.BookDtos;
 using deneme_2.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace deneme_2.Controllers
@@ -14,6 +15,7 @@ namespace deneme_2.Controllers
         {
             _bookServices = bookServices;
         }
+        [Authorize(Roles = "Superadmin")]
 
         [HttpGet("")]
         public async Task<IActionResult> GetAll([FromQuery] int? authorId = null, [FromQuery] int? catagoryId = null)
