@@ -3,8 +3,11 @@ using deneme_2.DTOs.AccountDtos;
 using deneme_2.Exceptions;
 using deneme_2.Models;
 using deneme_2.Services.Interfaces;
+using FluentAssertions.Common;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace deneme_2.Services.Implementations
 {
@@ -14,23 +17,26 @@ namespace deneme_2.Services.Implementations
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ILogger<AccountServices> _logger;
+        private readonly IConfiguration _configuration;
 
         public AccountServices(AppDbContext appDb,
             UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            ILogger<AccountServices> logger)
-
+            ILogger<AccountServices> logger,
+            IConfiguration configuration
+            )
         {
             _appDb = appDb;
             _userManager = userManager;
             _roleManager = roleManager;
             _logger = logger;
+            _configuration = configuration;
         }
 
         
 
 
-        public async Task LoginAsync(LoginDto loginDto)
+        public async Task<string> LoginAsync(LoginDto loginDto)
         {
             AppUser appUser = null;
 
@@ -54,6 +60,33 @@ namespace deneme_2.Services.Implementations
                 throw new CredentialException("Password or Gmail or Username is incorrect");
             }
             _logger.LogInformation("User {UserName_or_Email} logged in successfully", loginDto.UserName_or_Email);
+
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, appUser.Id),
+                new Claim(JwtRegisteredClaimNames.UniqueName, appUser.UserName),
+                new Claim(JwtRegisteredClaimNames.Email, appUser.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            var roles = await _userManager.GetRolesAsync(appUser);
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
+
+            var jwt = new JwtSecurityToken(audience: _configuration.GetSection("JWT:Audience").Value ,
+                issuer : _configuration.GetSection("JWT:Issuer").Value,
+                claims : claims,
+                signingCredentials :  new Microsoft.IdentityModel.Tokens.SigningCredentials(
+                    new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(
+                        System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("JWT:Key").Value)
+                        ),
+                    Microsoft.IdentityModel.Tokens.SecurityAlgorithms.HmacSha256
+                    ),
+                notBefore : DateTime.UtcNow,
+                expires : DateTime.UtcNow.AddHours(2)
+                );
+
+            var token  = new JwtSecurityTokenHandler().WriteToken(jwt);
+            return token;
 
         }
 

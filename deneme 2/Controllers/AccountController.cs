@@ -26,8 +26,13 @@ namespace deneme_2.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            await _accountServices.LoginAsync(loginDto);
-            return Ok("Succesfully");
+            var token = await _accountServices.LoginAsync(loginDto);
+
+            return Ok(new
+            {
+                message = "User logged in successfully",
+                token = token
+            });
         }
     }
 }

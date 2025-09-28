@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4++tmvRXFdU=",
+  "dgSpecHash": "GLtYtsTDXxg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Mehemmed\\source\\repos\\deneme 2\\deneme 2\\deneme 2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehemmed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mehemmed\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Mehemmed\\.nuget\\packages\\fluentassertions\\8.7.0\\fluentassertions.8.7.0.nupkg.sha512",
     "C:\\Users\\Mehemmed\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\Mehemmed\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\Mehemmed\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",

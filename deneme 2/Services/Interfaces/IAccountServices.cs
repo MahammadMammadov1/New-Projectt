@@ -3,7 +3,7 @@
     public interface IAccountServices 
     {
         Task RegisterAsync(DTOs.AccountDtos.RegisterDto registerDto);
-        Task LoginAsync(DTOs.AccountDtos.LoginDto loginDto);
+        Task<string> LoginAsync(DTOs.AccountDtos.LoginDto loginDto);
         
     }
 }

@@ -47,6 +47,19 @@
           }
         }
       },
+      "FluentAssertions/8.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".xml;.pdb"
+          }
+        }
+      },
       "FluentValidation/12.0.0": {
         "type": "package",
         "compile": {
@@ -1892,6 +1905,31 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentAssertions/8.7.0": {
+      "sha512": "h86TKCk6fS6Es6YPUtTUjekCeR1dSsdmD8dhdMy7RHLso/JH52QYU5W2Zw4wJJWGMzcEBMia8F70JctsbREvPA==",
+      "type": "package",
+      "path": "fluentassertions/8.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.7.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "FluentValidation/12.0.0": {
@@ -5480,6 +5518,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FluentAssertions >= 8.7.0",
       "FluentValidation >= 12.0.0",
       "FluentValidation.AspNetCore >= 11.3.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.9",
@@ -5541,6 +5580,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.7.0, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[12.0.0, )"
