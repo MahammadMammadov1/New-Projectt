@@ -1,0 +1,27 @@
+﻿# 1️⃣ Base image
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+# 2️⃣ Build stage
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+# .csproj faylını copy edirik (project qovluğundan)
+COPY ["deneme 2/deneme 2.csproj", "deneme 2/"]
+RUN dotnet restore "deneme 2/deneme 2.csproj"
+
+# Bütün solution-u copy edirik
+COPY . .
+
+RUN dotnet build "deneme 2/deneme 2.csproj" -c Release -o /app/build
+
+# 3️⃣ Publish stage
+FROM build AS publish
+RUN dotnet publish "deneme 2/deneme 2.csproj" -c Release -o /app/publish
+
+# 4️⃣ Final stage
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "deneme 2/deneme 2.dll"]
